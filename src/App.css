@@ -1,0 +1,66 @@
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: #eee;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ddd;
+}
+.border-bottom {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  width: -webkit-fill-available;
+  overflow: hidden;
+}
+
+.logo {
+  height: -webkit-fill-available;
+  height: 50px;
+  text-align: center;
+}
+.logo img {
+  align-self: center;
+  padding: 10px;
+  height: 100%;
+}
+.sidebar {
+  float: left;
+  background: #fff;
+  height: -webkit-fill-available;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 398px;
+  overflow-x: hidden;
+}
+.search-container {
+  float: right;
+  display: flex;
+  justify-content: center;
+}
+.container_custom {
+  float: left;
+  margin: 55px 0 0 0;
+  margin-left: 400px;
+  background: #fff;
+  height: -webkit-fill-available;
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+  width: -webkit-fill-available;
+}
+.menu {
+  float: left;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+.menuitems {
+  align-self: center;
+}
+.menuitems a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #666;
+}
