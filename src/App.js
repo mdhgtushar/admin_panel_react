@@ -9,6 +9,7 @@ function App() {
   return (
     <Layout>
       <Routes>
+        <Route path="/" element={"Dashord"} />
         <Route path="/forms" element={<Forms />} />
         <Route path="/tables" element={<Tables />} />
       </Routes>
