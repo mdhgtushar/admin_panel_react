@@ -1,14 +1,22 @@
 import React from "react";
 import HeaderButton from "../components/layout/HeaderButton";
+import logo from "../logo.svg";
 
 const Header = () => {
   return (
     <section>
       <div className="top-0 h-12 shadow-md fixed w-full bg-white z-40">
-        <div className="menu">
+        <div className="header-sub h-12 float-left">
+          <div className="flex items-center h-full">
+            <img src={logo} alt="" className="h-full" /> REACT ADMIN PANEL
+          </div>
+        </div>
+        <div className="float-left h-full flex items-center">
           <div className="flex items-center">
             <div className="ml-10 flex items-baseline space-x-4">
-              <HeaderButton goLink={"/"} title="HOME" />
+              <HeaderButton goLink={"/"} title="Home" />
+              <HeaderButton goLink={"/"} title="About Us" />
+              <HeaderButton goLink={"/"} title="Contact Us" />
             </div>
           </div>
         </div>
